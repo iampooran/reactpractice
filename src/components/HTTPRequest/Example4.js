@@ -21,6 +21,7 @@ const Example4 = () => {
           })
           .then((response) => {
             setResult(response.data);
+            console.log(response.data);
           });
       }
       

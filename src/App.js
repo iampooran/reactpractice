@@ -1,7 +1,9 @@
+import Main from "./components/ChildToParent/Main";
+
 function App() {
   return (
     <>
-    App Js
+      <Main/>
     </>
   );
 }

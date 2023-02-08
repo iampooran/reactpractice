@@ -1,4 +1,4 @@
-import Main from "./components/ChildToParent/Main";
+import Main from "./components/HTTPRequest/Main";
 
 function App() {
   return (

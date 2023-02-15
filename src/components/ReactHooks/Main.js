@@ -9,7 +9,7 @@ import UseStateExample from './UseStateExample'
 const Main = () => {
   return (
 
-    <Demo/>
+    <UseReducerExample/>
   )
 }
 

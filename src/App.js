@@ -1,4 +1,6 @@
-import Main from "./components/ReactHooks/Main";
+import Main from "./components/Table/Main";
+
+
 function App() {
   return (
     <>

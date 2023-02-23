@@ -16,7 +16,7 @@ const UseEffectExample = () => {
 
     useEffect(()=>{
         fetchDataFromAPI()
-    }, [resourceType])
+    })
   return (
     <>
     <button onClick={() => setResourceType('posts')}>Posts</button>

@@ -3,7 +3,7 @@ import useFetch from './useFetch'
 
 const APIHook = () => {
 
-    const [data] = useFetch("https://jsonplaceholder.typicode.com/posts")
+    const data = useFetch("https://jsonplaceholder.typicode.com/posts")
     
   return (
     

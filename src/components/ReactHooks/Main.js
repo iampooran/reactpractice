@@ -9,8 +9,15 @@ import UseMemoExample from './UseMemoExample'
 
 const Main = () => {
   return (
-
+  <>
+    <UseContextExample/>
+    <UseEffectExample/>
+    <UseReducerExample/>
+    <UseRefExample/>
+    <UseRefExample2/>
+    <UseStateExample/>
     <UseMemoExample/>
+    </>
   )
 }
 

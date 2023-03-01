@@ -1,4 +1,5 @@
-import Main from "./components/ReactHooks/Main";
+import Main from "./components/Memo/Main";
+
 
 
 

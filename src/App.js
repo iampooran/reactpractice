@@ -1,4 +1,5 @@
-import Main from "./components/Table/Main";
+import Main from "./components/ReactHooks/Main";
+
 
 
 function App() {

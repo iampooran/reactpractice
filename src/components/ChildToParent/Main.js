@@ -1,10 +1,8 @@
-import React from 'react'
-import Parent from './Parent'
+import React from "react";
+import Parent from "./Parent";
 
 const Main = () => {
-  return (
-    <Parent/>
-  )
-}
+  return <Parent />;
+};
 
-export default Main
+export default Main;

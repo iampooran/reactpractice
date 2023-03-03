@@ -1,10 +1,8 @@
-import React from 'react'
-import APIHook from './APIHook'
+import React from "react";
+import APIHook from "./APIHook";
 
 const Main = () => {
-  return (
-    <APIHook/>
-  )
-}
+  return <APIHook />;
+};
 
-export default Main
+export default Main;

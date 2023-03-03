@@ -1,12 +1,12 @@
-import React from 'react'
-import Component1 from './Component1'
+import React from "react";
+import Component1 from "./Component1";
 
 const Main = () => {
   return (
     <div>
-        <Component1/>
+      <Component1 />
     </div>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;

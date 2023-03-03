@@ -1,12 +1,12 @@
-import React from 'react'
-import Sorting from './Sorting'
+import React from "react";
+import Sorting from "./Sorting";
 
 const Main = () => {
   return (
     <div>
-        <Sorting/>
+      <Sorting />
     </div>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;

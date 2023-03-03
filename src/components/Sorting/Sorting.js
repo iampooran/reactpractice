@@ -25,15 +25,11 @@ const Sorting = () => {
 
   const handleIdSort = () => {
     if (order === "ASC") {
-      const sorted = [...tableData].sort((a, b) =>
-      a.id < b.id ? 1 : -1
-      );
+      const sorted = [...tableData].sort((a, b) => (a.id < b.id ? 1 : -1));
       setOrder("DSC");
       setTableData(sorted);
     } else if (order === "DSC") {
-        const sorted = [...tableData].sort((a, b) =>
-        a.id > b.id ? 1 : -1
-      );
+      const sorted = [...tableData].sort((a, b) => (a.id > b.id ? 1 : -1));
       setOrder("ASC");
       setTableData(sorted);
     }

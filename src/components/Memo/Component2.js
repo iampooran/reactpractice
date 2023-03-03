@@ -1,10 +1,8 @@
-import React from 'react'
+import React from "react";
 
 const Component2 = React.memo(() => {
-    console.log("Component 2 Rendered")
-  return (
-    <div>Component2</div>
-  )
-})
+  console.log("Component 2 Rendered");
+  return <div>Component2</div>;
+});
 
-export default Component2
+export default Component2;

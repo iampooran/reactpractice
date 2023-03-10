@@ -1,13 +1,15 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter , Route, Routes } from "react-router-dom";
 import Home from "./Home";
 import Page1 from "./Page1";
 import Page2 from "./Page2";
 import Page3 from "./Page3";
+import Page4 from "./Page4";
 
 const Main = () => {
   return (
     <div>
+      <Page4/>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -16,7 +18,7 @@ const Main = () => {
           <Route path="/page3/:id" element={<Page3 />} />
         </Routes>
       </BrowserRouter>
-      {/* <Home/>
+      {/* <Home/>+
         <Page1/>
         <Page2/>
         <Page3/> */}
